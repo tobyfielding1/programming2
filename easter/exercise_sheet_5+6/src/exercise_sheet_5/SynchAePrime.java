@@ -51,6 +51,7 @@ public class SynchAePrime implements Runnable {
 	}
 	
 	public static void main(String[] args){
+		
 		final int vectorSize = new Integer(args[0]);
 		final int numThreads = new Integer(args[1]);
 		Thread[] threads = new Thread[numThreads];
